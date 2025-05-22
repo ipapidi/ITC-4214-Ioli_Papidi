@@ -1,1 +1,86 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+</head>
+<body>
+    <h1>Hello, world!</h1>
+
+    <img src="image.png" alt="image" width="300">
+
+    <table border="10">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Ioli</td>
+            <td>22</td>
+            <td>Greece</td>
+        </tr>
+        <tr>
+            <td>john</td>
+            <td>100</td>
+            <td>mars</td>
+        </tr>
+    </table>
+
+<form action="/action_page.php">
+
+
+    <h3>Form</h3>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" required="required"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" required="required"><br>
+  <label for="password">Enter a password:</label><br>
+  <input type="password" id="password" name="password" required="required"><br><br>
+
+<!--Calendar-->
+
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday">
+
+
+<input type="submit" value="Submit"><br><br>
+
+<!--radio buttons-->
+
+  <input type="radio" id="choice1" name="role" value="Student">
+  <label for="choice1"> I am a student</label><br>
+
+  <input type="radio" id="choice2" name="role" value="Professor">
+  <label for="choice2"> I am a professor</label><br>
+
+  <input type="radio" id="choice3" name="role" value="Staff">
+  <label for="choice3"> I am Staff</label><br><br>
+
+<!--dropdown-->
+
+<label for="role">Choose a role:</label>
+
+<select name="role" id="role">
+  <option value="Student">Student</option>
+  <option value="Professor">Professor</option>
+  <option value="Staff">Staff</option>
+  <option value="Admin">Admin</option>
+</select><br><br>
+
+<!--Upload File-->
+
+<p>Click on the "Choose File" button to upload your CV:</p>
+
+<form action="/action_page.php">
+  <input type="file" id="file" name="filename">
+</form><br><br>
+
+  <input type="submit" value="Submit"><br>
+
+
+</form>
+
+</body>
+</html>
